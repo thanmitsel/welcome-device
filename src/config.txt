@@ -1,0 +1,18 @@
+[image dimensions]
+img_height = 512
+img_width = 512
+
+[model training]
+num_classes = 2
+optimiser = "adam"
+metric = "accuracy"
+epochs = 25
+
+[data paths]
+train = ../photos/
+
+[camera]
+rotation = 180
+width = 256
+height = 256
+framerate = 15
